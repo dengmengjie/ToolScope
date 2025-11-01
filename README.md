@@ -66,5 +66,5 @@ python -m src.run \
 ## Acknowledgments  
 ToolScope builds on open-source projects and datasets:  
 - Inference engine: [vLLM](https://github.com/vllm-project/vllm) and [Hugging Face Transformers](https://github.com/huggingface/transformers)  
-- Retrieval & Perception: [CLIP](https://github.com/openai/clip) (cross-modal) and [bm25s](https://github.com/ful1e5/bm25s) (sparse retrieval)  
-- Datasets: [VQA 2.0](https://visualqa.org/), [ScienceQA](https://scienceqa.github.io/), [MAT-Search](https://mat-benchmark.github.io/), [MathVista](https://mathvista.github.io/)  
+- Retrieval & Perception: [CLIP](https://github.com/openai/clip) (cross-modal) and [bm25s](https://github.com/xhluca/bm25s) (sparse retrieval)  
+- Datasets: [VQA 2.0](https://visualqa.org/), [ScienceQA](https://scienceqa.github.io/), [MAT-Search](https://github.com/Liuziyu77/Visual-RFT), [MathVista](https://mathvista.github.io/)  
