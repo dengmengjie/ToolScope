@@ -1,13 +1,16 @@
-# 🛠️ ToolScope  
-## An Agentic Framework for Vision-Guided and Long-Horizon Tool Use  
 
-ToolScope is a training-free, modular framework for tool-augmented multimodal reasoning. It unifies global planning with local multimodal perception to solve complex visual question answering (VQA) tasks, mitigating visual context degradation and enabling adaptive tool use across diverse datasets. The system supports multiple LMM backends via vLLM and integrates specialized tools for retrieval, dynamic perception, and code execution.  
+<h1 align="center"> 🛠️ToolScope: An Agentic Framework for Vision-Guided and Long-Horizon Tool Use </h1>
+
+<div align="center">
+
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2510.27363)
+[![Paper](https://img.shields.io/badge/Paper-Hugging%20Face-yellow?logo=huggingface)](https://huggingface.co/papers/2510.27363)
+[![License](https://img.shields.io/badge/LICENSE-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+</div>
 
 
 ### 📚 Table of Contents  
-- [🛠️ ToolScope](#️-toolscope)
-  - [An Agentic Framework for Vision-Guided and Long-Horizon Tool Use](#an-agentic-framework-for-vision-guided-and-long-horizon-tool-use)
-    - [📚 Table of Contents](#-table-of-contents)
   - [Overview](#overview)
   - [Key Features](#key-features)
   - [Experimental Results](#experimental-results)
@@ -16,6 +19,8 @@ ToolScope is a training-free, modular framework for tool-augmented multimodal re
 
 
 ## Overview  
+ToolScope is a training-free, modular framework for tool-augmented multimodal reasoning. It unifies global planning with local multimodal perception to solve complex visual question answering (VQA) tasks, mitigating visual context degradation and enabling adaptive tool use across diverse datasets. The system supports multiple LMM backends via vLLM and integrates specialized tools for retrieval, dynamic perception, and code execution.  
+
 ToolScope structures inference into three coordinated, modular phases:  
 
 1. **Global Navigator**  
